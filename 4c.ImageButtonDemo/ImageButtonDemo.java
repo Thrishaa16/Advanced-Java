@@ -17,8 +17,8 @@ public class ImageButtonDemo {
         messageLabel.setFont(new Font("Arial", Font.PLAIN, 18));
 
         // Load images (Make sure these files exist in your project folder)
-        ImageIcon digitalClockIcon = new ImageIcon("\"C:\\Users\\hp\\Downloads\\eclipse-jee-2025-03-R-win32-x86_64\\eclipse\\digital_clock.jpg\"");
-        ImageIcon hourglassIcon = new ImageIcon("\"C:\\Users\\hp\\Downloads\\eclipse-jee-2025-03-R-win32-x86_64\\eclipse\\hourglass.jpg\"");
+        ImageIcon digitalClockIcon = new ImageIcon(digital_clock.jpg);
+        ImageIcon hourglassIcon = new ImageIcon(hourglass.jpg);
 
         // Create buttons with images
         JButton btnDigitalClock = new JButton(digitalClockIcon);

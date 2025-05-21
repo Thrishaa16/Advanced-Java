@@ -3,7 +3,6 @@
 reverseString().
  */
 
-
 package Q3;
 
 import java.util.Scanner;
@@ -12,7 +11,6 @@ public class StringReversal {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Input from user
         System.out.print("Enter a string to reverse: ");
         String input = scanner.nextLine();
 

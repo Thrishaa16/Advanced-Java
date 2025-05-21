@@ -10,7 +10,6 @@ public class Palindrome {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Input string from user
         System.out.print("Enter a string to check for palindrome: ");
         String input = scanner.nextLine();
 

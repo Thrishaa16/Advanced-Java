@@ -10,7 +10,6 @@ public class WordCount {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Input from user
         System.out.print("Enter a sentence: ");
         String input = scanner.nextLine();
 

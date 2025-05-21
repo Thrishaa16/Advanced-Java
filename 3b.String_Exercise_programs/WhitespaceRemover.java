@@ -11,7 +11,6 @@ public class WhitespaceRemover {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Input string from user
         System.out.print("Enter a string with whitespace: ");
         String input = scanner.nextLine();
 
