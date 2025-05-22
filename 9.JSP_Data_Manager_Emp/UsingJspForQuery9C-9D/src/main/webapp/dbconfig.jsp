@@ -1,4 +1,4 @@
-<%--This is main congig file that is used to crerate the JDBC connection between the java program and the mywql --%>
+<%--This is main congig file that is used to crerate the JDBC connection between the java program and the mysql --%>
 <%@ page import="java.sql.*" %>
 <%
 String url = "jdbc:mysql://localhost:3306/employee";
