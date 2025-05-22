@@ -36,9 +36,3 @@ Each program is implemented with:
 4. Configure database connections in JSP/Servlet files as needed.
 
 ---
-
-## 🛡️ Disclaimer
-
-This project is developed solely for academic submission purposes. Unauthorized copying or reuse may result in disqualification.
-
----
