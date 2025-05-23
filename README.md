@@ -1,38 +1,56 @@
+# 📘 Java Program Repository
 
-## 📁 Repository Structure
+## 🗂 Overview
 
-This repository contains solutions to the assignment tasks for Advanced Java, categorized into:
+This repository contains a comprehensive collection of Java programs covering both core and advanced topics. The programs are organized into clearly structured folders for easy navigation and reference.
 
-- **ArrayList Programs**
-- **LinkedList Programs**
-- **String and StringBuilder Programs**
-- **Swing Programs**
-- **Servlet Programs**
-- **JSP and Session/Cookie Management**
-- **JDBC with MySQL (CRUD operations)**
+Each program includes:
 
-Each program is implemented with:
-
-- The corresponding question as a comment at the beginning of the file.
-- Proper inline comments explaining the logic.
-- File names clearly indicating the program topic.
+* The problem statement as a comment at the top of the file.
+* Inline comments explaining the logic and functionality.
+* Clear and descriptive filenames related to their topic.
 
 ---
 
-## 📌 Notes
+## 📁 Categories
 
-- Programs are organized and named appropriately for ease of reference.
-- Dynamic project files include `.java`, `.jsp`, and `.html` files where applicable.
-- JDBC-related files include database, table structures, and data handling code.
-- This repository strictly follows the instruction to avoid code cloning or reuse from others' repositories.
+* **ArrayList Programs**
+* **LinkedList Programs**
+* **String and StringBuilder Programs**
+* **Swing Programs**
+* **Servlet Programs**
+* **JSP and Session/Cookie Management**
+* **JDBC with MySQL (CRUD Operations)**
 
 ---
 
 ## ✅ How to Run
 
+### 🔹 Java Console Applications
+
 1. Clone or download the repository.
-2. Open the `.java` files in any Java IDE (e.g., IntelliJ, Eclipse).
-3. For web applications, deploy on Apache Tomcat using XAMPP and MySQL as backend.
-4. Configure database connections in JSP/Servlet files as needed.
+2. Open `.java` files using a Java IDE (e.g., IntelliJ, Eclipse).
+3. Compile and run using the IDE or terminal.
+
+### 🔹 Web Applications (Servlets/JSP)
+
+1. Install [Apache Tomcat](https://tomcat.apache.org/) and [XAMPP](https://www.apachefriends.org/).
+2. Copy web project folders to the `webapps` directory of Tomcat.
+3. Start Apache and MySQL via XAMPP.
+4. Use `phpMyAdmin` to create required databases and tables.
+5. Update DB connection details in the code:
+
+   ```java
+   String url = "jdbc:mysql://localhost:3306/your_database";
+   String user = "root";
+   String password = "";
+   ```
+6. Access applications via `http://localhost:8080/YourProjectFolder/`.
 
 ---
+
+## 📌 Notes
+
+* Programs are organized by topic for easy reference.
+* All dynamic project files include `.java`, `.jsp`, and `.html` as applicable.
+* JDBC-related files include database setup and connection logic.
