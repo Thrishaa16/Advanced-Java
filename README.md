@@ -62,4 +62,3 @@ Programs are grouped into the following categories:
   * SQL schema for database and table creation.
   * Connection setup and exception handling.
   * Functional examples of CRUD operations.
-* All code is original, independently developed, and documented for learning and review.
